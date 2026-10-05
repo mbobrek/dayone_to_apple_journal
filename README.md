@@ -3,7 +3,7 @@
 A cautious, resumable Python wrapper that imports a Day One JSON export into Apple Journal through [apple-journal-cli](https://github.com/omarshahine/apple-journal-cli). It preserves entry dates, promotes an initial Markdown H1 to the title, renders the remaining Markdown as rich text, and attaches exported photos/media.
 
 #### Special Thanks
-Special thanks to Omar Shahine for creating the [apple-journal-cli](https://github.com/omarshahine/apple-journal-cli), which provides the underlying Apple Journal integration this project depends on.
+Special thanks to [Omar Shahine](https://github.com/omarshahine) for creating the [apple-journal-cli](https://github.com/omarshahine/apple-journal-cli), which provides the underlying Apple Journal integration this project depends on.
 
 
 > [!WARNING]
