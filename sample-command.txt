@@ -1,0 +1,19 @@
+# Dry run (default)
+python3 dayone_to_applejournal.py \
+  "/path/to/Day One Export/Test Capsule.json" \
+  --journal "Test Capsule"
+
+# Five-entry rehearsal
+python3 dayone_to_applejournal.py \
+  "/path/to/Day One Export/Test Capsule.json" \
+  --journal "Test Capsule" \
+  --limit 5
+
+# Live import; rerun this same command to resume from the UUID ledger
+python3 dayone_to_applejournal.py \
+  "/path/to/Day One Export/Test Capsule.json" \
+  --journal "Test Capsule" \
+  --live
+
+# Audit staged journal membership after importing
+journal-cli sync-journals --journal "Test Capsule"
