@@ -3,7 +3,8 @@
 A cautious, resumable Python wrapper that imports a Day One JSON export into Apple Journal through [apple-journal-cli](https://github.com/omarshahine/apple-journal-cli). It preserves entry dates, promotes an initial Markdown H1 to the title, renders the remaining Markdown as rich text, and attaches exported photos/media.
 
 #### Special Thanks
-Credit Omar Shahine and [apple-journal-cli](https://github.com/omarshahine/apple-journal-cli)
+Special thanks to Omar Shahine for creating the [apple-journal-cli](https://github.com/omarshahine/apple-journal-cli), which provides the underlying Apple Journal integration this project depends on.
+
 
 > [!WARNING]
 > Back up first. Apple provides no public migration API for this workflow. `journal-cli` writes to Apple Journal's private, undocumented data store; a macOS update may break it, and a bad write can affect data that syncs through iCloud. Test with a small disposable journal before migrating an archive.
